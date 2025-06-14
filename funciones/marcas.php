@@ -1,7 +1,5 @@
 <?php
 
-    ########################
-    #### CRUD DE marcas ####
 
     function listarMarcas()
     {
@@ -13,11 +11,4 @@
         return $resultado;
     }
 
-    
-    /*
-     * listarMarcas()
-     * verMarcaPorID()
-     * agregarMarca()
-     * modificarMarca()
-     * eliminarMarca()
-     * */
+   

@@ -30,8 +30,8 @@
             while( $marca = mysqli_fetch_assoc($marcas) ){
 ?>  
                 <tr>
-                    <td>#</td>
-                    <td>Marca</td>
+                    <td><?= $marca['idMarca'];?></td>
+                    <td><?=$marca['mkNombre'];?></td>
                     <td>
                     <a href="" class="btn btn-outline-secondary">
                             Modificar
